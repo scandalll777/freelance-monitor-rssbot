@@ -1,0 +1,61 @@
+# Пример настроек мониторинга (копируется в config.yaml при install.bat)
+
+feeds:
+  - source: fl_ru
+    url: https://www.fl.ru/rss/all.xml?category=31
+  - source: fl_ru
+    url: https://www.fl.ru/rss/all.xml?category=5
+
+  - source: freelancer
+    url: https://www.freelancer.com/rss.xml?keyword=llm
+  - source: freelancer
+    url: https://www.freelancer.com/rss.xml?keyword=cursor+ai
+  - source: freelancer
+    url: https://www.freelancer.com/rss.xml?keyword=vibe+coding
+  - source: freelancer
+    url: https://www.freelancer.com/rss.xml?keyword=n8n
+  - source: freelancer
+    url: https://www.freelancer.com/rss.xml?keyword=ai+agent
+
+  - source: remoteok
+    enabled: false
+    url: https://remoteok.com/remote-dev-jobs.rss
+  - source: weworkremotely
+    enabled: false
+    url: https://weworkremotely.com/categories/remote-programming-jobs.rss
+
+categories_include:
+  - "AI — искусственный интеллект"
+  - "Vibe coding"
+
+keywords_include: []
+
+keywords_include_foreign:
+  - llm
+  - gpt
+  - chatgpt
+  - openai
+  - claude
+  - cursor
+  - vibe coding
+  - langchain
+  - n8n
+  - copilot
+  - mlops
+  - generative ai
+  - ai agent
+  - rag
+  - chatbot
+
+keywords_exclude:
+  - "бесплатно"
+  - "за отзыв"
+  - business development
+  - data entry
+  - ebook
+  - resume
+
+min_budget: 0
+max_budget: 0
+description_preview_length: 200
+translate_foreign: true
