@@ -3,7 +3,6 @@
 Python bot for Windows: monitors freelance job boards via RSS and sends new listings to Telegram.
 
 **Full guide (English + Русский):** [`INSTRUCTION.md`](INSTRUCTION.md)
-<img width="486" height="474" alt="4platform" src="https://github.com/user-attachments/assets/ea2eedf7-5cda-44c3-b7ba-d084eb38576a" />
 <img width="486" height="474" alt="3platform" src="https://github.com/user-attachments/assets/1a27da63-f694-40d2-9db7-0de4d5144c20" />
 <img width="455" height="429" alt="2platform" src="https://github.com/user-attachments/assets/27b57546-1b4b-4b22-a19e-c9f0a15f6389" />
 <img width="493" height="463" alt="1platform" src="https://github.com/user-attachments/assets/4c063cd8-3f3a-4dd5-8928-69e90867664d" />
